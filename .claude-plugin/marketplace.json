@@ -1,0 +1,16 @@
+{
+  "name": "my-skills",
+  "version": "1.0.0",
+  "description": "Fast /my-skills catalog for Claude Code — lists all installed skills, plugins, and commands in seconds",
+  "owner": {
+    "name": "2eeYuan"
+  },
+  "plugins": [
+    {
+      "name": "my-skills",
+      "description": "List all installed skills and plugins with their names, descriptions, and slash commands. Use when the user wants to see what skills/plugins are available, or asks 'what can you do', 'what skills do I have', etc.",
+      "source": "./skills/my-skills",
+      "category": "productivity"
+    }
+  ]
+}
